@@ -4,3 +4,7 @@ npm-debug.log
 .env
 *.log
 templates/*.docx
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
