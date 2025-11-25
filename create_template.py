@@ -37,7 +37,7 @@ def create_template():
 
     doc.add_paragraph(f'I am pleased to offer you the position of {{{{PositionTitle}}}} with Unique Needs.')
 
-    doc.add_paragraph('Please find attached your employment contract which provides the terms and conditions for this position. At a minimum, your terms and conditions are in accordance with the National Employment Standards and the Social, Community, Home Care and Disability Services Industry Award 2010 (MA000100). I've also attached the position description.')
+    doc.add_paragraph("Please find attached your employment contract which provides the terms and conditions for this position. At a minimum, your terms and conditions are in accordance with the National Employment Standards and the Social, Community, Home Care and Disability Services Industry Award 2010 (MA000100). I've also attached the position description.")
 
     doc.add_paragraph('If you have any questions about your employment, please contact us on 03 63 888440. You can also contact the Fair Work Ombudsman (www.fairwork.gov.au) for help with minimum terms and conditions of employment.')
 
@@ -103,9 +103,9 @@ def create_template():
 
     doc.add_paragraph(f'You are being employed in the position of {{{{PositionTitle}}}}.')
     doc.add_paragraph('You are being employed on a casual basis, as required.')
-    doc.add_paragraph('As a casual employee, we do not guarantee the days or hours you'll work, or how long you'll be employed for. We do not commit to providing you with work that will be continuing or indefinite.')
+    doc.add_paragraph("As a casual employee, we do not guarantee the days or hours you'll work, or how long you'll be employed for. We do not commit to providing you with work that will be continuing or indefinite.")
     doc.add_paragraph('We may choose to offer you work and you may accept or refuse our offer. You will be paid a casual loading.')
-    doc.add_paragraph('In some circumstances, you may have the right to become a permanent employee (known as 'casual conversion').')
+    doc.add_paragraph("In some circumstances, you may have the right to become a permanent employee (known as 'casual conversion').")
 
     # Employment dates
     p = doc.add_paragraph()
@@ -123,7 +123,7 @@ def create_template():
     doc.add_paragraph('You will perform the following duties as required:')
 
     doc.add_paragraph('\nPersonal Care', style='List Bullet')
-    doc.add_paragraph('Assist with bathing, dressing, grooming, and other routine tasks while respecting each client's dignity, privacy, and autonomy.')
+    doc.add_paragraph("Assist with bathing, dressing, grooming, and other routine tasks while respecting each client's dignity, privacy, and autonomy.")
 
     doc.add_paragraph('\nHealth Monitoring', style='List Bullet')
     doc.add_paragraph('Observe changes in physical, mental, or emotional well-being, and report concerns to supervisors or healthcare professionals.')
@@ -150,7 +150,7 @@ def create_template():
     doc.add_paragraph('Maintain clear, accurate notes on daily activities, incidents, and client progress, while safeguarding confidentiality and privacy.')
 
     doc.add_paragraph('\nCollaboration & Compliance', style='List Bullet')
-    doc.add_paragraph('Coordinate with families, healthcare providers, and team members. Adhere to Unique Needs' policies, safety procedures, and legal requirements, including mandatory reporting and respect for professional boundaries.')
+    doc.add_paragraph("Coordinate with families, healthcare providers, and team members. Adhere to Unique Needs' policies, safety procedures, and legal requirements, including mandatory reporting and respect for professional boundaries.")
 
     doc.add_paragraph('\nWe may also assign you other duties, where reasonable for your position, training and experience.')
 
@@ -158,7 +158,7 @@ def create_template():
     p = doc.add_paragraph()
     p.add_run('Employment terms and conditions').bold = True
     doc.add_paragraph('Your employment terms and conditions are those set out in this contract, the Social, Community, Home Care and Disability Services Industry Award 2010 (MA000100) and applicable legislation. This includes, the National Employment Standards in the Fair Work Act 2009.')
-    doc.add_paragraph('You can check the minimum award entitlements for your classification level with the Fair Work Ombudsman's Pay and Conditions Tool.')
+    doc.add_paragraph("You can check the minimum award entitlements for your classification level with the Fair Work Ombudsman's Pay and Conditions Tool.")
 
     # Hours of work
     p = doc.add_paragraph()
@@ -194,7 +194,7 @@ def create_template():
     p = doc.add_paragraph()
     p.add_run('Pay rate').bold = True
     doc.add_paragraph(f'You will be paid {{{{PayRate}}}} per hour. This pay rate includes casual loading at the percentage set out in your award. This loading is paid instead of entitlements that apply to permanent employees like paid personal leave and annual leave.')
-    doc.add_paragraph('This pay rate does not include superannuation, we'll pay this separately.')
+    doc.add_paragraph("This pay rate does not include superannuation, we'll pay this separately.")
 
     p = doc.add_paragraph()
     p.add_run('Payment method').bold = True
@@ -213,8 +213,8 @@ def create_template():
     p = doc.add_paragraph()
     p.add_run('Superannuation').bold = True
     doc.add_paragraph('If you are eligible for the super guarantee (SG), we will pay the contributions on your behalf in accordance with legislation and your award. We will pay contributions into a super fund of your choice.')
-    doc.add_paragraph('If you do not tell us your choice of fund, we may need to contact the ATO to find out if you have a 'stapled' super fund to make your SG contributions into.')
-    doc.add_paragraph('If you do not tell us your choice of fund and the ATO confirms you don't have a stapled super fund, we will pay your SG contributions to our default fund or another fund that meets the choice of fund rules.')
+    doc.add_paragraph("If you do not tell us your choice of fund, we may need to contact the ATO to find out if you have a 'stapled' super fund to make your SG contributions into.")
+    doc.add_paragraph("If you do not tell us your choice of fund and the ATO confirms you don't have a stapled super fund, we will pay your SG contributions to our default fund or another fund that meets the choice of fund rules.")
 
     p = doc.add_paragraph()
     p.add_run('Annual bonus').bold = True
@@ -225,7 +225,7 @@ def create_template():
     p.add_run('Annual pay review').bold = True
     doc.add_paragraph('We will review your pay annually to determine whether you are eligible for an increase, taking into consideration:')
     doc.add_paragraph('•\tyour performance')
-    doc.add_paragraph('•\tthe business's financial position.')
+    doc.add_paragraph("•\tthe business's financial position.")
     doc.add_paragraph('Any increase in your pay, above your award entitlements, is our decision.')
 
     p = doc.add_paragraph()
@@ -240,12 +240,12 @@ def create_template():
     p.add_run('Leave').bold = True
 
     p = doc.add_paragraph()
-    p.add_run('Carer's leave').bold = True
-    doc.add_paragraph('You are entitled to 2 days of unpaid carer's leave (in accordance with the National Employment Standards). This is available each time a member of your immediate family or household needs your care or support because of:')
+    p.add_run("Carer's leave").bold = True
+    doc.add_paragraph("You are entitled to 2 days of unpaid carer's leave (in accordance with the National Employment Standards). This is available each time a member of your immediate family or household needs your care or support because of:")
     doc.add_paragraph('•\tpersonal injury')
     doc.add_paragraph('•\tpersonal illness')
     doc.add_paragraph('•\tan unexpected emergency.')
-    doc.add_paragraph('You must give us notice as soon as possible to take carer's leave. We may also require evidence (such as a medical certificate).')
+    doc.add_paragraph("You must give us notice as soon as possible to take carer's leave. We may also require evidence (such as a medical certificate).")
 
     p = doc.add_paragraph()
     p.add_run('Compassionate leave').bold = True
@@ -339,8 +339,8 @@ def create_template():
     p.add_run('Misconduct').bold = True
     doc.add_paragraph('We may terminate your employment without notice, or payment in lieu of notice, if you engage in serious misconduct.')
     doc.add_paragraph('Serious misconduct is when an employee:')
-    doc.add_paragraph('•\tcauses serious and imminent risk to the health and safety of another person or to the reputation, viability or profits of their employer's business, or')
-    doc.add_paragraph('•\twilfully or deliberately behaves in a way that's inconsistent with continuing their employment.')
+    doc.add_paragraph("•\tcauses serious and imminent risk to the health and safety of another person or to the reputation, viability or profits of their employer's business, or")
+    doc.add_paragraph("•\twilfully or deliberately behaves in a way that's inconsistent with continuing their employment.")
     doc.add_paragraph('Examples of serious misconduct include:')
     doc.add_paragraph('•\ttheft')
     doc.add_paragraph('•\tfraud')
